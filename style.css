@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-image: url('imagens/Anotação.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    color:#ae1010;
+    padding-top: 100px;
+}
+
+.container {
+    max-width: 960px;
+    width: 30%;
+    margin: 0 auto;
+
+}
+
+header{
+
+    margin-bottom: 40px;
+
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+form label{
+    font-size: 25px;
+}
+
+form input{
+    font-size: 15px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 6px;
+    padding: 2px;
+    transition: 1s ;
+}
+
+form input:hover{
+    font-size: 20px;
+}
+
+form button{
+    background-color: #e86868;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor:pointer;
+    padding: 2px;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    transition: all 1s ease-in;
+}
+
+form button:hover{
+    background-color: #ae1010;
+}
+
+table{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table th {
+    padding: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td{
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+
